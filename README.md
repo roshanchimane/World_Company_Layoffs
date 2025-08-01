@@ -1,2 +1,73 @@
-# World_Company_Layoffs
-A SQL project for cleaning and analyzing real-world layoff data using MySQL. Covers duplicate removal, data standardization, null handling, and exploratory analysis for trends and insights.
+# Layoffs Data Cleaning and EDA with SQL
+
+This project demonstrates a complete data preprocessing and exploratory data analysis (EDA) workflow using SQL on a layoffs dataset. The data was cleaned and transformed to prepare it for insights into global layoffs across industries, countries, and time periods.
+
+---
+
+## 📌 Project Objectives
+
+1. **Data Cleaning**
+   - Remove duplicate records
+   - Standardize inconsistent values
+   - Handle null or missing data
+   - Prepare a clean and reliable dataset for analysis
+
+2. **Exploratory Data Analysis (EDA)**
+   - Analyze total layoffs by company, industry, and country
+   - Explore trends over time (monthly, yearly)
+   - Identify top companies by number of layoffs
+   - Use window functions to derive rolling totals and rankings
+
+---
+
+## 🧼 Cleaning Steps (See `CleaningData.sql`)
+
+- Created backups of raw data to ensure integrity
+- Removed duplicate rows using `ROW_NUMBER()` and CTEs
+- Standardized:
+  - Company names (using `TRIM()`)
+  - Industry names (e.g., unifying "Crypto" variants)
+  - Country names (e.g., removing trailing periods)
+  - Dates (converted to proper `DATE` format)
+- Filled missing industries by matching with other rows from the same company
+- Deleted rows where both `total_laid_off` and `percentage_laid_off` were null
+- Dropped temporary columns after cleaning
+
+---
+
+## 📊 Analysis Insights (See `EDA.sql`)
+
+- **Top companies** by total layoffs
+- **Industries and countries** most affected
+- **Yearly and monthly trends** of layoffs
+- **Rolling total** of layoffs to visualize the progression
+- **Ranking** top 5 companies per year using `DENSE_RANK()`
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** SQL (MySQL syntax)
+- **Database Used:** MySQL (world_layoffs)
+
+---
+
+## 📂 Files
+
+- `CleaningData.sql`: Script for data cleaning and transformation
+- `EDA.sql`: Script for exploratory data analysis
+
+---
+
+## 🤝 Acknowledgments
+
+This project is inspired by real-world data cleaning and analytical scenarios. Ideal for learning and showcasing SQL skills for data analytics roles.
+
+---
+
+## 💡 Author
+
+Roshan Chimane  
+_Data Analytics Enthusiast | Final Year CSE Student_  
+Let's connect on [LinkedIn](https://www.linkedin.com/in/roshan-chimane/)
+
