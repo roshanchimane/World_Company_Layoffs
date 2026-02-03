@@ -47,6 +47,6 @@ This project demonstrates a complete data preprocessing and exploratory data ana
 
 ## 🛠️ Tech Stack
 
-- **Language:** SQL (MySQL syntax)
+- **Language:** SQL (MySQL)
 - **Database Used:** MySQL (world_layoffs)
 
