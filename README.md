@@ -39,7 +39,6 @@ This project demonstrates a complete data preprocessing and exploratory data ana
 - **Rolling total** of layoffs to visualize the progression
 - **Ranking** top 5 companies per year using `DENSE_RANK()`
 
----
 
 ## 🛠️ Tech Stack
 
