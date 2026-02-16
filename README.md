@@ -1,4 +1,4 @@
-# Layoffs Data Cleaning and EDA with SQL
+# Layoffs Data Cleaning and EDA with SQL.
 
 This project demonstrates a complete data preprocessing and exploratory data analysis (EDA) workflow using SQL on a layoffs dataset. The data was cleaned and transformed to prepare it for insights into global layoffs across industries, countries, and time periods.
 
