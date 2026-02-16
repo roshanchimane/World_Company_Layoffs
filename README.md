@@ -2,7 +2,6 @@
 
 This project demonstrates a complete data preprocessing and exploratory data analysis (EDA) workflow using SQL on a layoffs dataset. The data was cleaned and transformed to prepare it for insights into global layoffs across industries, countries, and time periods.
 
----
 
 ## 📌 Project Objectives
 
@@ -33,7 +32,6 @@ This project demonstrates a complete data preprocessing and exploratory data ana
 - Deleted rows where both `total_laid_off` and `percentage_laid_off` were null
 - Dropped temporary columns after cleaning
 
----
 
 ## 📊 Analysis Insights (See `EDA.sql`)
 
