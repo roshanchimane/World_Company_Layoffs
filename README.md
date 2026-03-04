@@ -40,7 +40,7 @@ This project demonstrates a complete data preprocessing and exploratory data ana
 - **Ranking** top 5 companies per year using `DENSE_RANK()`
 
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **Language:** SQL (MySQL)
 - **Database Used:** MySQL (world_layoffs)
