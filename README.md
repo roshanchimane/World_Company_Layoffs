@@ -17,7 +17,7 @@ This project demonstrates a complete data preprocessing and exploratory data ana
    - Identify top companies by number of layoffs
    - Use window functions to derive rolling totals and rankings
 
-## 🧼 Cleaning Steps (See `CleaningData.sql`)
+### 🧼 Cleaning Steps (See `CleaningData.sql`)
 
 - Created backups of raw data to ensure integrity
 - Removed duplicate rows using `ROW_NUMBER()` and CTEs
