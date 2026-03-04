@@ -31,7 +31,7 @@ This project demonstrates a complete data preprocessing and exploratory data ana
 - Dropped temporary columns after cleaning
 
 
-## 📊 Analysis Insights (See `EDA.sql`)
+### 📊 Analysis Insights (See `EDA.sql`)
 
 - **Top companies** by total layoffs
 - **Industries and countries** most affected
